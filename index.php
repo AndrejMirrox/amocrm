@@ -6,16 +6,16 @@
     <body>
     <form id="leadForm">
         <label for="name">Имя:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" required id="name" name="name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" required id="email" name="email" required>
 
         <label for="phone">Телефон:</label>
-        <input type="tel" id="phone" name="phone" required>
+        <input type="tel" required id="phone" name="phone" required>
 
         <label for="price">Цена:</label>
-        <input type="number" id="price" name="price" required>
+        <input type="number" required id="price" name="price" required>
 
         <button type="submit">Отправить</button>
     </form>
